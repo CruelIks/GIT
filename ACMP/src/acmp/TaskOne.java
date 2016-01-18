@@ -41,9 +41,13 @@ public class TaskOne {
 	}
 
 	public static void main(String[] args) {
+		
+		//вычисление суммы чисел, заданных в файле Input.txt
+		//результат выводится в файл Output.txt
+		
 		String line = "";
 		int resultCalculation = 0;
-
+		
 		try {
 			line = loadFromFile("Input.txt");
 		} catch (MyException e) {
